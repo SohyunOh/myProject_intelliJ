@@ -11,14 +11,16 @@ package com.company;
 * n은 1000 이하인 자연수입니다.
 *
 * */
-public class Solution_02 {
-    public long[] solution(int x, int n) {
-        long[] answer = {};
+
+class Solution {
+    public long[] solution(long x, int n) {
+        long[] answer = new long[n];
+        for (int i = 0 ; i > n ; i++ ){
+            answer[i] += x*(i+1);
+        }
         return answer;
-
-
     }
 
-
-
 }
+
+

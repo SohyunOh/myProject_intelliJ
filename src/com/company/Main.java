@@ -41,8 +41,47 @@ public class Main {
 
 
 
+
+
+        // ctrl + shift +i : 코드 구현부 즉시보기
+
+        User user = new User("101", "oh",  28);
+
+        // 메소드 위에 ctrl + alt+ v : 변수 자동 완성
+        int age = user.getAge();
+
+        System.out.println(age);
+
+
+
     }
+
+    public void  setUser(String id ,String name , int age) {
+        // 로컬내에서 파라미터로 자동 완성  : ctrl+alt+p
+        //ex) int age; 에 적용
+        // 정렬 : ctrl + atl +i
+        String a1;
+        String a2;
+        int a3;
+    }
+
+    //전체 컴파일 : ctrl + F9
+    // alt +shift +F10  :실행
+
+    //ctrl +N = 클래스 검색
+    //ctrl +shift + n = 파일 검색
+    // ctrl +shift + alt + n = 메서드 검색
+    // ctrl +shift + F = 파일 내 전체 검색
+
+    // ctrl +E  = 최근에 열었던 파일 보기
+    // alt + R or L : 에디터 탭 전환
+    // alt + up or down : 메서드 탭 전환
+
+
+
 }
+
+
 
 
 
